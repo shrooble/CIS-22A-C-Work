@@ -1,7 +1,7 @@
 /*  
     Victor Li 
     Chapter 2: Exercise 2
-    This program assigns and outputs the length, width, area, and perimeter variables of a preset rectangle to the console
+    This program assigns and outputs the length, width, area, and perimeter variables of a preset rectangle
     Included at the bottom is the Optional Challenge
 */ 
 
