@@ -1,6 +1,7 @@
 /*  
     Victor Li 
     1/15/2026 Classwork
+    Different Types of Variable Examples
 */
 
 #include <iostream> 
