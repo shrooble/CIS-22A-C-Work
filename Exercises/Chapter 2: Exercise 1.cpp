@@ -1,6 +1,7 @@
 /*  
     Victor Li 
     Chapter 2: Exercise 1
+    This program assigns and outputs the company name, hours worked, rate per hour, and gross pay to the console
 */ 
 
 #include <iostream>
@@ -13,7 +14,7 @@ int main()
     int hoursWorked = 40, rateHour = 100, grossPay;
     string companyName = "De Anza College";
 
-// This determines the grossPay based on the hoursWorked and rateHour
+// This determines the gross pay based on the hours worked and rate per hour
     grossPay = hoursWorked * rateHour;
     
     cout << "Company Name is: " << companyName << endl;
