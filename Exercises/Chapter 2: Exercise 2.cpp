@@ -13,7 +13,7 @@ int main()
     const int numberTwo = 2;
     float area, perimeter;
     
-    //This code 
+//This determines the area and perimeter based on the length and width variables 
     area = length * width;
     perimeter = numberTwo * (length + width);
     
@@ -23,7 +23,7 @@ int main()
     cout << "Area: " << area << endl;
     cout << "Perimeter: " << perimeter << endl;
     
-    //This cout is for the Optional Challenge 
+//This output is for the Optional Challenge 
     cout << "\nOptional Challenge: \nThe side of a double is " << sizeof(double) << " bytes." << endl;
     
     return 0;
