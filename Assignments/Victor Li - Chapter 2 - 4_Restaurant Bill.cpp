@@ -19,9 +19,9 @@ int main()
   tipAmount = totalTax * tipPercent;
   totalBill = tipAmount + totalTax;
 
-  cout << "The subtotal is " << mealCost << "." << endl;
-  cout << "The amount after tax is " << totalTax << "." << endl;
-  cout << "The total bill after tax and including tip is " << totalBill << "." << endl;
+  cout << "The subtotal is $" << mealCost << "." << endl;
+  cout << "The amount after tax is $" << totalTax << "." << endl;
+  cout << "The total bill after tax and including tip is $" << totalBill << "." << endl;
 
   return 0;
 }
