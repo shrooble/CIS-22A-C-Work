@@ -1,0 +1,30 @@
+/*  
+    Victor Li 
+    Chapter 2: Exercise 2
+*/ 
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    const double length = 12.5, width = 8.3;
+    const int numberTwo = 2;
+    float area, perimeter;
+    
+    //This code 
+    area = length * width;
+    perimeter = numberTwo * (length + width);
+    
+    cout << "Rectangle Calculator" << endl;
+    cout << "Length: " << length << endl;
+    cout << "Width: " << width << endl;
+    cout << "Area: " << area << endl;
+    cout << "Perimeter: " << perimeter << endl;
+    
+    //This cout is for the Optional Challenge 
+    cout << "\nOptional Challenge: \nThe side of a double is " << sizeof(double) << " bytes." << endl;
+    
+    return 0;
+}
