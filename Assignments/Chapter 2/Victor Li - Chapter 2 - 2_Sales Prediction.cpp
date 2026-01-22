@@ -10,7 +10,7 @@ using namespace std;
 
 int main()
 {
-  double sales = 8600000, salesPercent = 0.58, totalSales;
+  double sales = 8600000.0, salesPercent = 0.58, totalSales;
 
 // This calculates the profit by multiplying the sales generated this year with the percentage of total sales
   totalSales = sales * salesPercent;
