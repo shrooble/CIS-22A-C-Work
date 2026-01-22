@@ -1,7 +1,7 @@
 /*
   Victor Li
   Chapter 2: Sales Prediction
-  This program assigns the sales and percentage variables, stores the product of both in the totalSales variable, and outputs the total sales percentage to the console
+  This program calculates and outputs the profit based on the total sales percentage and money generated from sales
 */
 
 #include <iostream>
@@ -12,7 +12,7 @@ int main()
 {
   double sales = 8600000, salesPercent = 0.58, totalSales;
 
-// This calculates the percentage of the incoming sales
+// This calculates the profit by multiplying the sales generated this year with the percentage of total sales
   totalSales = sales * salesPercent;
 
   cout << "The East Coast Division will generate $" << totalSales << " if the company has $8.6 million sales this year." << endl;
