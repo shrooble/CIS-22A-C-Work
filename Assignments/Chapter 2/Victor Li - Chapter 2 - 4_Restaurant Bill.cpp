@@ -15,7 +15,8 @@ int main()
 // This calculates the cost of the meal by calculating the amount after tax and adding it to the subtotal to get totalTax
   taxAmount = mealCost * taxPercent;
   totalTax = mealCost + taxAmount;
-// Then it calculates the tip of the meal and adding it to totalTax to get the total bill of the meal
+  
+// This calculates the tip of the meal and adding it to totalTax to get the total bill of the meal
   tipAmount = totalTax * tipPercent;
   totalBill = tipAmount + totalTax;
 
