@@ -15,7 +15,7 @@ int main()
 // This adds 50 (numerOne) and 100 (numberTwo) together to get the sum
   sum = numberOne + numberTwo;
   
-  cout << "The total value of " << numberOne << " and " << numberTwo << " is " << sum << ".\n";
+  cout << "The total value of " << numberOne << " and " << numberTwo << " is: " << sum << endl;
 
   return 0;
 }
