@@ -10,12 +10,12 @@ using namespace std;
 
 int main()
 {
-  double purchase = 95.0, stateTax = 0.04, countyTax = 0.02, totalTax;
+  double purchaseAmount = 95.0, stateTax = 0.04, countyTax = 0.02, totalTax;
 
 // This finds the total tax of the purchase by adding the state and county taxes before multiplying them with the purchase amount
   totalTax = purchase * (stateTax + countyTax);
 
-  cout << "The total sales tax on a $" << purchase << " purchase is: $" << totalTax << endl;
+  cout << "The total sales tax on a $" << purchaseAmount << " purchase is: $" << totalTax << endl;
 
   return 0;
 }
