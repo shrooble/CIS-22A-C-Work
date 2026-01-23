@@ -1,7 +1,7 @@
 /*
   Victor Li
   Chapter 2: Ocean Levels
-  This program calculates the ocean's level after 5,7, and 10 years based on a 1.5 mm rise in ocean levels per year
+  This program calculates the ocean's level after 5, 7, and 10 years based on a 1.5 mm rise in ocean levels per year
 */
 
 #include <iostream>
