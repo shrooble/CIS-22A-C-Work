@@ -10,12 +10,12 @@ using namespace std;
 
 int main()
 {
-  int numberOne = 50, numberTwo = 100, total;
+  int numberOne = 50, numberTwo = 100, sum;
 
-// This calculates the sum of the numberOne and numberTwo variables
-  total = numberOne + numberTwo;
+// This adds 50 and 100 together to get the sum
+  sum = numberOne + numberTwo;
   
-  cout << "The total value of " << numberOne << " and " << numberTwo << " is " << total << ".\n";
+  cout << "The total value of " << numberOne << " and " << numberTwo << " is " << sum << ".\n";
 
   return 0;
 }
