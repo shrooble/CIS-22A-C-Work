@@ -1,7 +1,7 @@
 /*
   Victor Li
   Chapter 2: Restaurant Bill
-  This program calculates the total bill of a meal after including the tax and tip
+  This program calculates the total bill of a meal after calculating the tax and tip
 */
 
 #include <iostream>
@@ -13,7 +13,7 @@ int main()
 {
   double subTotal = 88.67, taxPercent = 0.0675, tipPercent = 0.20, taxAmount, afterTax, tipAmount, totalBill;
 
-// This calculates the cost of the meal after tax by calculating the tax amount first before adding it to the subtotal
+// This calculates the cost of the meal after tax (before tip) by calculating the tax amount first before adding it to the subtotal
   taxAmount = subTotal * taxPercent;
   afterTax = subTotal + taxAmount;
   
