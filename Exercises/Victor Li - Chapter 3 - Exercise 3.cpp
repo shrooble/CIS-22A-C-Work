@@ -15,6 +15,7 @@ int main()
   const double tax = 0.12;
   const int maxDocument = 9999;
   double hours, rate, grossPay, taxAmount, netPay;
+  int avgPayHour;
   string name;
 
   cout << "Enter your College or Company name:\n";    
@@ -27,12 +28,17 @@ int main()
   grossPay = hours * rate;
   taxAmount = grossPay * tax;
   netPay = grossPay + taxAmount;
+  avgPayHour = grossPay / static_cast<double>(hours);
 
   cout << "Information Summary\n";
   cout << "-------------------\n";
   cout << "Company Name: " << name << endl;
-  cout << "" << fixed << setprecision(2);
-  
+  cout << "Hours Worked: " << hours << endl;
+  cout << "Hourly Pay Rate: " << rate << endl;
+  cout << "Gross Pay: " << fixed << setprecision(2) << grossPay << endl;
+  cout << "Tax Amount: " << fixed << setprecision(2) << taxAmount << endl;
+  cout << "Total Pay: " << fixed << setprecision(2) << netPay << endl;
+  cout << "Average Pay Per Hour: " << fixed << setprecision(2) << avgPayHour << endl;
 
   return 0;
 }
