@@ -12,6 +12,7 @@ int main()
 {
   double numOne = 28, numTwo = 32, numThree = 37, numFour = 24, numFive = 33, sum, average;
 
+// This adds each number to get the sum before dividing the sum by 5 to get the average
   sum = numOne + numTwo + numThree + numFour + numFive;
   average = sum / 5;
 
