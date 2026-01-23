@@ -16,8 +16,8 @@ int main()
   sum = numOne + numTwo + numThree + numFour + numFive;
   average = sum / 5;
 
-  cout << "The sum of the five numbers are " << sum << "." << endl;
-  cout << "The average of the five numbers are " << average << "." << endl;
+  cout << "The sum of the five numbers are: " << sum << endl;
+  cout << "The average of the five numbers are: " << average << endl;
 
   return 0;
 }
