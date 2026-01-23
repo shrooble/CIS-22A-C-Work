@@ -12,7 +12,7 @@ int main()
 {
   int numberOne = 50, numberTwo = 100, sum;
 
-// This adds 50 and 100 together to get the sum
+// This adds 50 (numerOne) and 100 (numberTwo) together to get the sum
   sum = numberOne + numberTwo;
   
   cout << "The total value of " << numberOne << " and " << numberTwo << " is " << sum << ".\n";
