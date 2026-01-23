@@ -1,7 +1,7 @@
 /*
   Victor Li
   Chapter 2: Cyborg Data Type Sizes
-  This program outputs the amount of memory char, int, float, and double will use
+  This program outputs the amount of memory the variabels char, int, float, and double will use
 */
 
 #include <iostream>
