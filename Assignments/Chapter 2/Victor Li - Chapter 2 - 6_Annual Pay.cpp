@@ -12,7 +12,7 @@ int main()
 {
   double payAmount = 2200.0, payPeriods = 26.0, annualPay;
 
-//This calculates the annual pay by multiplying the pay amount by the pay periods in a year
+//This calculates the annual pay by multiplying the pay amount by the pay periods per year
   annualPay = payAmount * payPeriods;
 
   cout << "The total annual pay of the employee is: $" << annualPay << endl;
