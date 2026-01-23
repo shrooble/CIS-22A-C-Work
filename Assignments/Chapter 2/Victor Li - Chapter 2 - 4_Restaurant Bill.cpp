@@ -5,24 +5,26 @@
 */
 
 #include <iostream>
+#include <iomanip>
 
 using namespace std;
 
 int main()
 {
-  double mealCost = 88.67, taxPercent = 0.0675, tipPercent = 0.20, taxAmount, totalTax, tipAmount, totalBill;
+  double subTotal = 88.67, taxPercent = 0.0675, tipPercent = 0.20, taxAmount, afterTax, tipAmount, totalBill;
 
-// This calculates the cost of the meal by calculating the amount after tax and adding it to the subtotal to get the amount including tax
-  taxAmount = mealCost * taxPercent;
-  totalTax = mealCost + taxAmount;
+// This calculates the cost of the meal after tax by calculating the tax amount first before adding it to the subtotal
+  taxAmount = subTotal * taxPercent;
+  afterTax = subTotal + taxAmount;
   
-// This calculates the tip of the meal and adds it to totalTax to get the total bill of the meal
-  tipAmount = totalTax * tipPercent;
-  totalBill = tipAmount + totalTax;
+// This calculates the tip of the meal and adds it to the total after tax to get the total bill of the meal
+  tipAmount = afterTax * tipPercent;
+  totalBill = tipAmount + afterTax;
 
-  cout << "The subtotal is $" << mealCost << ".\n";
-  cout << "The amount after tax is $" << totalTax << ".\n";
-  cout << "The total bill after tax and including tip is $" << totalBill << ".\n";
+  cout << "The subtotal before tax and tip is: $" << subTotal << endl;
+  cout << "The amount of tax is: $" << fixed << setprecision(2) << taxAmount << endl;
+  cout << "The amount of tip is: $" << fixed << setprecision(2) << tipAmount << endl;
+  cout << "The total bill is: $" << fixed << setprecision(2) << totalBill << endl;
 
   return 0;
 }
