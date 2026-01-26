@@ -17,7 +17,7 @@ int main()
   cout << "Enter the number of miles the car can drive on a full tank.\n";
   cin >> milesPerTank;
 
-  //
+// This 
   milesPerGallon = 
 
   cout << "The car can drive 
