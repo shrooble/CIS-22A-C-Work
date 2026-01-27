@@ -1,8 +1,8 @@
 /*
   Victor Li
   Chapter 3: Exercise 3
-  This program provides an information summary of: Company Name, Hours Worked, Hourly Pay Rate, Document Number, Gross Pay, Tax Amount, Total Pay, and Average Hourly Pay
-  FIX THE RAND() AND THE EXTRA maxDocument VARIABLE
+  This program provides an information summary of: 
+  Company Name, Hours Worked, Hourly Pay Rate, Document Number, Gross Pay, Tax Amount, Total Pay, and Average Hourly Pay
 */
 
 #include <iostream>
@@ -16,8 +16,8 @@ int main()
 {
   const double tax = 0.12;
   unsigned int seedValue;
-  double hours, hourlyRate, grossPay, taxAmount, netPay;
-  int avgPayHour, documentNumber;
+  double hours, hourlyRate, grossPay, taxAmount, netPay, avgPayHour;
+  int documentNumber;
   string name;
 
   cout << "Enter your College or Company name:\n";    
