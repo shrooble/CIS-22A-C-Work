@@ -8,6 +8,8 @@
 #include <iomanip>
 #include <string>
 
+using namespace std;
+
 int main() {
   string monthOne, monthTwo, monthThree;
   double rainOne, rainTwo, rainThree, averageRain;
