@@ -9,12 +9,13 @@
 #include <iomanip>
 #include <cstdlib>
 #include <string>
+#include <ctime>
 
 using namespace std;
 
 int main()
 {
-  const double tax = 0.12;
+  const double tax = 0.12, documentMin = 1000, documentMax = 2000;
   unsigned int seedValue;
   double hours, hourlyRate, grossPay, taxAmount, netPay, avgPayHour;
   int documentNumber;
@@ -38,10 +39,12 @@ int main()
 // The hours worked is changed to a double variable type using static_cast
   avgPayHour = grossPay / static_cast<double>(hours);
 
-// This generates the document number randomly from 1000 to 2000, after getting a unique seed "using srand(seedValue);"
+// This generates a unique seed using "seedValue = time(0);" and "srand(seedValue);"
   seedValue = time(0);
   srand(seedValue);
-  documentNumber = ((rand() % 1001) + 1000);
+
+// This generates a random document number from 1000 to 2000
+  documentNumber = ((rand() % (documentMax - documentMin + 1)) + documentMin);
 
   cout << "\nInformation Summary\n";
   cout << "-------------------\n";
