@@ -17,8 +17,8 @@ int main()
 {
   const double tax = 0.12, documentMin = 1000, documentMax = 2000;
   unsigned int seedValue;
-  double hours, hourlyRate, grossPay, taxAmount, netPay, avgPayHour;
-  int documentNumber;
+  double hourlyRate, grossPay, taxAmount, netPay, avgPayHour;
+  int documentNumber, hours;
   string name;
 
   cout << "Enter your College or Company name:\n";    
