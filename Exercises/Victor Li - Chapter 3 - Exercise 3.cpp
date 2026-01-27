@@ -49,7 +49,7 @@ int main()
   cout << "Hours Worked: " << hours << " hours" << endl;
   cout << "Hourly Pay Rate: $" << hourlyRate << endl;
   cout << "Document Number: #" << documentNumber << endl;
-  cout << "Gross Pay: $" << fixed << setprecision(2) << grossPay << endl;
+  cout << "Gross Pay: $" << fixed << setprecision(2) << showpoint << grossPay << endl;
   cout << "Tax Amount: $" << taxAmount << endl;
   cout << "Total Pay: $" << netPay << endl;
   cout << "Average Hourly Pay (Calculated using type casting): $" << avgPayHour << endl;
