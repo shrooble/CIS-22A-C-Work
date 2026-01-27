@@ -1,7 +1,7 @@
 /*
   Victor Li
   Chapter 3: Exercise 3
-  This program provides an information summary of: 
+  This program provides an formatted report of: 
   Company Name, Hours Worked, Hourly Pay Rate, Document Number, Gross Pay, Tax Amount, Total Pay, and Average Hourly Pay
 */
 
