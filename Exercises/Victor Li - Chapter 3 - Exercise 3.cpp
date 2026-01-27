@@ -47,12 +47,53 @@ int main()
   cout << "-------------------\n";
   cout << "Company Name: " << name << endl;
   cout << "Hours Worked: " << hours << " hours" << endl;
-  cout << "Hourly Pay Rate: $" << hourlyRate << endl;
+  cout << "Hourly Pay Rate: $" << fixed << setprecision(2) << showpoint << hourlyRate << endl;
   cout << "Document Number: #" << documentNumber << endl;
-  cout << "Gross Pay: $" << fixed << setprecision(2) << showpoint << grossPay << endl;
+  cout << "Gross Pay: $" << grossPay << endl;
   cout << "Tax Amount: $" << taxAmount << endl;
   cout << "Total Pay: $" << netPay << endl;
   cout << "Average Hourly Pay (Calculated using type casting): $" << avgPayHour << endl;
 
   return 0;
 }
+
+/*
+Sample Output #1:
+  Enter your College or Company name:
+  De Anza College
+  Enter the number of hours worked:
+  40
+  Enter the hourly pay rate:
+  9
+  
+  Information Summary
+  -------------------
+  Company Name: De Anza College
+  Hours Worked: 40 hours
+  Hourly Pay Rate: $9.00
+  Document Number: #1166
+  Gross Pay: $360.00
+  Tax Amount: $43.20
+  Total Pay: $316.80
+  Average Hourly Pay (Calculated using type casting): $9.00
+
+Sample Output #2:
+  Enter your College or Company name:
+  SJSU
+  Enter the number of hours worked:
+  41
+  Enter the hourly pay rate:
+  17.50
+  
+  Information Summary
+  -------------------
+  Company Name: SJSU
+  Hours Worked: 41 hours
+  Hourly Pay Rate: $17.50
+  Document Number: #1024
+  Gross Pay: $717.50
+  Tax Amount: $86.10
+  Total Pay: $631.40
+  Average Hourly Pay (Calculated using type casting): $17.50
+*/
+
