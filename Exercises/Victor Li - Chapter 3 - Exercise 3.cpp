@@ -63,7 +63,7 @@ int main()
 /*
 Sample Output #1:
   Enter your College or Company name:
-  De Anza College
+  De Anza College
   Enter the number of hours worked:
   40
   Enter the hourly pay rate:
