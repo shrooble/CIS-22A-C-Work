@@ -29,7 +29,7 @@ int main() {
 // This calculates the amount paid to the movie distributer by subtracting the gross profit from the net profit
   distributorPay = grossProfit - netProfit;
 
-  cout << "Movie Name: \"" << movieName << endl;
+  cout << "Movie Name: \"" << movieName << "\"" << endl;
   cout << "Adult Tickets Sold: " << adultTickets << endl;
   cout << "Child Tickets Sold: " << childTickets << endl;
   cout << "Gross Box Office Profit: $" << fixed << setprecision(2) << showpoint << grossProfit << endl;
