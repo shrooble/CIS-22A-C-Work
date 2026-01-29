@@ -20,8 +20,8 @@ int main() {
   total = male + female;
 
 // This calculates the percentages for male and female students by dividing the male/female students by the number of total students respectfully
-  malePercentage = male / total;
-  femalePercentage = female / total;
+  malePercentage = (male / total) * 100;
+  femalePercentage = (female / total) * 100;
 
   cout << "The percentage of males in the class is: " << fixed << setprecision(2) << showpoint << malePercentage << "%\n";
   cout << "The percentage of females in the class is: " << femalePercentage << "%\n";
