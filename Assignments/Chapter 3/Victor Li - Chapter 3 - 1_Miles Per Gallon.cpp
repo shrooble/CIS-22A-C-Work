@@ -22,7 +22,7 @@ int main()
 // This calculates the miles the car can go on a single gallon by dividing the miles the car can drive on a full tank, by the gallons of gas the car can hold
   milesPerGallon = milesPerTank / gallons;
 
-  cout << "The car can drive: " << milesPerGallon << " Miles Per Gallon\n";
+  cout << "\nThe car can drive: " << milesPerGallon << " Miles Per Gallon\n";
 
   return 0;
 }
