@@ -1,5 +1,7 @@
 /*
   Victor Li
+  Team Name: Cat++
+  Team Members: Kenny Nguyen
   Chapter 3: 9 - How Many Calories?
   This program calculates the amount of calories the user consumed from cookies based on their input
 */
@@ -15,10 +17,10 @@ int main() {
   cout << "How many cookies did you eat:\n";
   cin >> cookieAmount;
 
-// This calculates the calories consumed by dividing the serving calories by the serving amount and cookie bag amount (30) and multiplying the quotient by the cookies consumed
-  calories = ((servingCalories / servingAmount) / cookieBag) * cookieAmount;
+// This calculates the calories consumed by dividing the serving calories (300) by the quotient of the cookie bag amount (30) with the serving amount (10) and multiplying everything by the cookies consumed
+  calories = (servingCalories / (cookieBag / servingAmount)) * cookieAmount;
 
-  cout << "Calories: " << calories << endl;
+  cout << "\nCalories: " << calories << endl;
 
   return 0;
 }
