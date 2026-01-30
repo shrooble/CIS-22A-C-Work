@@ -1,5 +1,7 @@
 /*
   Victor Li
+  Team Name: Cat++
+  Team Members: Kenny Nguyen
   Chapter 3: 5 - Male and Female Precentages
   This program determines the percentage of male and female students in a class
 */
@@ -10,10 +12,10 @@
 using namespace std;
 
 int main() {
-  int male, female, total;
-  double malePercentage, femalePercentage;
+  int male, female;
+  double malePercentage, femalePercentage, total;
 
-  cout << "Enter the number of males and females in the class, the inputs should be separated by a space:\n";
+  cout << "Enter the number of males and females in the class, each input should be separated by a space:\n";
   cin >> male >> female;
 
 // This adds the number of male and female students to get the total number of students in a class
@@ -23,7 +25,7 @@ int main() {
   malePercentage = (male / total) * 100;
   femalePercentage = (female / total) * 100;
 
-  cout << "The percentage of males in the class is: " << fixed << setprecision(2) << showpoint << malePercentage << "%\n";
+  cout << "\nThe percentage of males in the class is: " << fixed << setprecision(2) << showpoint << malePercentage << "%\n";
   cout << "The percentage of females in the class is: " << femalePercentage << "%\n";
   
   return 0;
