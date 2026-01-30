@@ -1,5 +1,7 @@
 /*
   Victor Li
+  Team Name: Cat++
+  Team Members: Kenny Nguyen
   Chapter 3: 6 - Ingredient Adjuster
   This program calculates the amount of ingredients required for a user inputted amount of cookies
 */
@@ -13,7 +15,7 @@ int main() {
   int cookieAmount;
   double sugar = 1.5, butter = 1.0, flour = 2.75;
 
-  cout << "48 cookie requires: " << fixed << setprecision(2) << showpoint << sugar << " cups of sugar, " << butter << " cups of butter, and " << flour << " cups of flour.\n";
+  cout << "48 cookies requires: " << sugar << " cups of sugar, " << butter << " cups of butter, and " << flour << " cups of flour.\n";
   cout << "How many cookies do you want to make:\n";
   cin >> cookieAmount;
 
@@ -27,7 +29,7 @@ int main() {
   butter *= cookieAmount;
   flour *= cookieAmount;
   
-  cout << cookieAmount << " cookies require: " << sugar << " cups of sugar, " << butter << " cups of butter, and " << flour << " cups of flour.\n";
+  cout << "\n" << cookieAmount << " cookies require:\n" << sugar << " cups of sugar\n" << butter << " cups of butter\n" << flour << " cups of flour.\n";
   
   return 0;
 }
