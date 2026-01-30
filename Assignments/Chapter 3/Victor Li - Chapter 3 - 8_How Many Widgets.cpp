@@ -1,7 +1,9 @@
 /*
   Victor Li
+  Team Name: Cat++
+  Team Members: Kenny Nguyen
   Chapter 3: 8 - How Many Widgets?
-  This programs determines the amount of widgets on a pallet by dividing the total pallet weight by the weight of a widget
+  This programs determines the amount of widgets on a pallet by dividing the pallet weight by the weight of a widget
 */
 
 #include <iostream>
@@ -16,10 +18,10 @@ int main() {
   cout << "What is the weight of the loaded pallet (lbs):\n";
   cin >> loadedPallet;
 
-// This calculates the amount of widgets on the pallet by dividing the pallet weight by the weight of a widget
+// This calculates the amount of widgets on the pallet by dividing the total pallet weight difference by the weight of a widget
   widgetAmount = (loadedPallet - emptyPallet) / widgetWeight;
 
-  cout << "Number of widgets on the pallet: " << static_cast<int>(widgetAmount) << " widgets\n";
+  cout << "\nNumber of widgets on the pallet: " << widgetAmount << " widgets\n";
 
   return 0;
 }
