@@ -1,5 +1,7 @@
 /*
   Victor Li
+  Team Name: Cat++
+  Team Members: Kenny Nguyen
   Chapter 3: 1 - Miles Per Gallon
   This program calculates the miles per gallon of a car based on the car's maximum miles and gallons 
 */
